@@ -109,3 +109,95 @@ as its primary medical knowledge sources:
 - Git
 - GitHub
 - Visual Studio Code
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/medical-rag-chatbot.git
+cd medical-rag-chatbot
+```
+
+### 2. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+
+#### Windows PowerShell
+
+```powershell
+venv\Scripts\Activate.ps1
+```
+
+#### Windows Command Prompt
+
+```cmd
+venv\Scripts\activate
+```
+
+### 4. Install Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Install and Setup Ollama
+
+Install Ollama and download the LLM model used by the project:
+
+```bash
+ollama pull llama3.2
+```
+
+Verify that the model is installed:
+
+```bash
+ollama list
+```
+
+Make sure Ollama is running before starting the application.
+
+### 6. Add WHO Medical Documents
+
+Place the required WHO PDF documents inside the `data/` directory:
+
+```text
+data/
+├── Diabetes WHO.pdf
+├── Hypertension WHO.pdf
+└── Asthma WHO.pdf
+```
+
+The PDF files are excluded from the Git repository using `.gitignore`.
+
+### 7. Build the Vector Database
+
+Run the document loader to process the PDFs and create the ChromaDB vector database:
+
+```bash
+python app/loader.py
+```
+
+### 8. Start the FastAPI Server
+
+```bash
+uvicorn app.main:app --reload
+```
+
+The application will run at:
+
+```text
+http://127.0.0.1:8000
+```
+
+### 9. Open FastAPI API Documentation
+
+Open the following URL in your browser:
+
+```text
+http://127.0.0.1:8000/docs
+```
