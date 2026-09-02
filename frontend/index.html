@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Medical AI Assistant</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- Header -->
+
+        <div class="chat-header">
+
+            <h1>🩺 Medical AI Assistant</h1>
+
+            <p>RAG-based medical information assistant</p>
+
+        </div>
+
+
+        <!-- Chat messages -->
+
+        <div id="chat-box" class="chat-box">
+
+            <div class="message bot-message">
+
+                <div class="message-content">
+
+                    Hello! 👋 I am a medical information assistant.
+
+                    <br><br>
+
+                    I can help you with questions related to:
+                    <strong>Diabetes, Hypertension, and Asthma.</strong>
+
+                    <br><br>
+                    <strong>Medical Disclaimer:</strong><br>
+                    This chatbot provides general medical information based on the provided WHO documents. It is not a substitute for professional medical advice, diagnosis, or treatment.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Input area -->
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Ask a medical question..."
+            >
+
+            <button id="send-button">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
