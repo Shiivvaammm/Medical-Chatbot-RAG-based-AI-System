@@ -55,48 +55,57 @@ The system combines semantic document retrieval with a locally running Large Lan
                     ▼               ▼
                  Answer          Sources
 ```
-##📚 Medical Knowledge Sources
+## 📚 Medical Knowledge Sources
 
-The chatbot uses the following WHO publications:
+The chatbot uses the following World Health Organization (WHO) publications
+as its primary medical knowledge sources:
 
-1. Diabetes
-Guidance on global monitoring for diabetes prevention and control-2024
-Publisher: World Health Organization
-ISBN: 9240102248
+### 1. Diabetes
 
-2. Hypertension
-Guideline for the pharmacological treatment of hypertension in adults
-WHO publication: 2021
-ISBN: 978-92-4-003398-6
+**Title:** Guidance on global monitoring for diabetes prevention and control – 2024  
+**Publisher:** World Health Organization  
+**ISBN:** 9240102248
 
-3. Asthma
-Tobacco and asthma: WHO tobacco knowledge summaries
-WHO publication: 2024
-ISBN: 978-92-4-009753-7
+### 2. Hypertension
 
-The original PDF files are not included in this repository.
+**Title:** Guideline for the pharmacological treatment of hypertension in adults  
+**Publisher:** World Health Organization  
+**Publication Year:** 2021  
+**ISBN:** 978-92-4-003398-6
 
-##🛠️ Tech Stack
-#Backend :
-Python
-FastAPI
-Uvicorn
+### 3. Asthma
 
-#RAG / AI :
-LangChain
-Ollama
-Hugging Face Embeddings
-Retrieval-Augmented Generation
+**Title:** Tobacco and asthma: WHO tobacco knowledge summaries  
+**Publisher:** World Health Organization  
+**Publication Year:** 2024  
+**ISBN:** 978-92-4-009753-7
 
-#Vector Database :
-ChromaDB
+> **Note:** The original PDF files are not included in this repository.
 
-#Frontend :
-HTML
-CSS
-JavaScript
+---
 
-#Development Tools :
-Git
-GitHub
-VS Code
+## 🛠️ Tech Stack
+
+### Backend
+- Python
+- FastAPI
+- Uvicorn
+
+### RAG / AI
+- LangChain
+- Ollama
+- Hugging Face Embeddings
+- Retrieval-Augmented Generation (RAG)
+
+### Vector Database
+- ChromaDB
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Development Tools
+- Git
+- GitHub
+- Visual Studio Code
