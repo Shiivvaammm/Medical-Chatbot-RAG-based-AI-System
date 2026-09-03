@@ -196,6 +196,33 @@ http://127.0.0.1:8000
 
 ### 9. Open FastAPI API Documentation
 
+## 🛡️ Medical Safety Guardrails
+
+The chatbot is designed to provide general medical information rather than personalized medical advice.
+
+The system includes safeguards against:
+
+- Medical diagnosis
+- Medication prescriptions
+- Medication dosage recommendations
+- Personalized treatment plans
+- Unsupported answers
+- Emergency medical advice
+
+If relevant information cannot be found in the provided documents, the chatbot is designed to indicate that the information is unavailable in its knowledge base.
+
+---
+
+## ⚠️ Medical Disclaimer
+
+This chatbot is intended for educational and informational purposes only.
+
+It is **not a substitute for professional medical advice, diagnosis, or treatment**.
+
+Do not use this system to make medical decisions or delay seeking professional medical care.
+
+In an emergency, contact your local emergency medical services or seek immediate professional medical attention.
+
 Open the following URL in your browser:
 
 ```text
