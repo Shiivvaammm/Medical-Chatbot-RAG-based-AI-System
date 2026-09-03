@@ -196,6 +196,12 @@ http://127.0.0.1:8000
 
 ### 9. Open FastAPI API Documentation
 
+Open the following URL in your browser:
+
+```text
+http://127.0.0.1:8000/docs
+```
+
 ## 🛡️ Medical Safety Guardrails
 
 The chatbot is designed to provide general medical information rather than personalized medical advice.
@@ -223,8 +229,15 @@ Do not use this system to make medical decisions or delay seeking professional m
 
 In an emergency, contact your local emergency medical services or seek immediate professional medical attention.
 
-Open the following URL in your browser:
+## 📈 Future Improvements
 
-```text
-http://127.0.0.1:8000/docs
-```
+- Improve retrieval relevance filtering
+- Add reranking for retrieved documents
+- Add conversation history
+- Add multilingual support
+- Improve medical safety classification
+- Add automated evaluation of RAG responses
+- Add Docker containerization
+- Deploy the application on AWS
+- Add CI/CD pipeline
+- Add authentication and user management
