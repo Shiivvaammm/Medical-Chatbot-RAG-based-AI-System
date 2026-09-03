@@ -241,3 +241,20 @@ In an emergency, contact your local emergency medical services or seek immediate
 - Deploy the application on AWS
 - Add CI/CD pipeline
 - Add authentication and user management
+
+## 👨‍💻 Author
+
+**Shivam Kaushik**
+
+B.Tech Student
+
+GitHub: https://github.com/Shiivvaammm
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+The MIT License applies to the original source code of this project.
+Third-party content and documents, including WHO publications, remain subject to their respective copyright and licensing terms.
